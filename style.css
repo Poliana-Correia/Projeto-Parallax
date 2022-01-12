@@ -1,0 +1,79 @@
+/* Global --------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+:root {
+    --purple: rgb(155, 61, 155);
+}
+
+/* Header ---------- */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header, h1 {
+    padding: 30px;
+    font-variant: small-caps;
+}
+
+header, p {
+    padding-bottom: 50px;
+}
+
+/* Main ----------- */
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.images {
+    background-color: rgb(39, 35, 35);
+    color: white;
+}
+
+section.images > p {
+    width: 400px;
+    background-color: rgb(53, 48, 48);
+}
+
+
+/* Footer --------- */
+
+footer {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    height: 20px;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
