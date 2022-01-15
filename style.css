@@ -73,22 +73,21 @@ section.images {
 section.images > p {
     width: 500px;
     text-align: center;
-
     color: black;
 
     font-family: var(--font1);
 }
 
 .text1 {
-    background: rgb(196, 159, 159);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .text2 {
-    background: rgb(209, 209, 230);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .text3 {
-    background: rgb(165, 155, 155);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 #paris {
