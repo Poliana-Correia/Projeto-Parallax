@@ -21,6 +21,11 @@ html, body {
     --purple: rgb(155, 61, 155);
 }
 
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
 /* Header ---------- */
 
 header {
