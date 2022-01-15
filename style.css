@@ -55,7 +55,10 @@ section.normal {
     background-color: white;
     color: black;
     font-family: var(--font3);
+    
 }
+
+
 
 section.images {
     background-color: rgb(39, 35, 35);
@@ -124,7 +127,7 @@ footer {
 }
 
 a {
-    color: var(--purple);
+    color: rgb(223, 58, 58);
     text-decoration: none;
     font-weight: bolder;
 }
