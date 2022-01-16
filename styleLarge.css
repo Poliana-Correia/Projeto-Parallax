@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -30,14 +30,10 @@ header {
 }
 
 header, h1 {
-    padding: 30px;
+    padding: 2rem;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 2vw;
-}
-
-header, p {
-    padding-bottom: 20px;
+    font-size: 2rem;
 }
 
 /* Main ----------- */
@@ -46,7 +42,7 @@ section {
     text-align: center;
     padding-top: 10rem; 
     padding-bottom: 15rem;
-    line-height: 2em;
+    line-height: 3rem;
     padding-left: 10rem;
     font-size: 2rem;
 }
@@ -62,7 +58,6 @@ section.normal {
 
 section.images {
     background-color: rgb(39, 35, 35);
-    /*min-height: 350px;*/
     text-align: center;
  
     /* defina o background como fixo e posicione a imagem */
@@ -74,7 +69,7 @@ section.images {
 }
 
 section.images > p {
-    width: 500px;
+    width: 35rem;
     text-align: center;
     color: black;
 
@@ -119,11 +114,10 @@ footer {
     color: white;
     text-align: center;
 
-    height: 50px;
+    height: 4rem;
     width: 100%;
-    padding: 50px;
-    font-size: 25px;
-    
+    padding: 3rem;
+    font-size: 1.5rem;
 }
 
 a {
