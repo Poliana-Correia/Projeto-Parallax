@@ -21,11 +21,6 @@ html, body {
     --purple: rgb(155, 61, 155);
 }
 
-.container {
-    width: min(90vw, 800px);
-    margin: auto;
-}
-
 /* Header ---------- */
 
 header {
@@ -67,7 +62,7 @@ section.normal {
 
 section.images {
     background-color: rgb(39, 35, 35);
-    min-height: 350px;
+    /*min-height: 350px;*/
     text-align: center;
  
     /* defina o background como fixo e posicione a imagem */

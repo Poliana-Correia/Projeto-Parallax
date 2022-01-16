@@ -1,0 +1,137 @@
+/* Global --------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Vollkorn:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+:root {
+    --font1: 'Vollkorn', serif;
+    --font2: 'Arapey', serif;
+    --font3: 'Mitr', sans-serif;
+    --purple: rgb(155, 61, 155);
+}
+
+/* Header ---------- */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header, h1 {
+    padding: 30px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 2vw;
+}
+
+header, p {
+    padding-bottom: 20px;
+}
+
+/* Main ----------- */
+
+section {
+    text-align: center;
+    padding-top: 10rem; 
+    padding-bottom: 15rem;
+    line-height: 2em;
+    padding-left: 10rem;
+    font-size: 2rem;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    font-family: var(--font3);
+    
+}
+
+
+
+section.images {
+    background-color: rgb(39, 35, 35);
+    /*min-height: 350px;*/
+    text-align: center;
+ 
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section.images > p {
+    width: 500px;
+    text-align: center;
+    color: black;
+
+    font-family: var(--font1);
+}
+
+.text1 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.text2 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.text3 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#paris {
+    background-image: url('/images/paris.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+#londres {
+    background-image: url('/images/cabine-vermelha.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+#san-francisco {
+    background-image: url('/images/san-francisco.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+
+/* Footer --------- */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    height: 50px;
+    width: 100%;
+    padding: 50px;
+    font-size: 25px;
+    
+}
+
+a {
+    color: rgb(223, 58, 58);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
