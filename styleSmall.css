@@ -39,23 +39,22 @@ header, h1 {
 
 /* Main ----------- */
 
-section {
-    padding: 1rem ; 
-    font-size: 0.5rem;
-}
-
 section.normal {
     background-color: white;
     color: black;
+    text-align: justify;
     font-family: var(--font3);
 
     width: 10.5rem;
-    text-align: justify;
+    padding: 1rem ; 
+    font-size: 0.5rem;
     
 }
 
 section.images {
     background-color: rgb(39, 35, 35);
+    padding: 1rem ; 
+    font-size: 0.5rem;
  
     /* defina o background como fixo e posicione a imagem */
     background-attachment: fixed;

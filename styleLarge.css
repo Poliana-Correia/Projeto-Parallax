@@ -37,25 +37,23 @@ header, h1 {
 
 /* Main ----------- */
 
-section {
-    font-size: 1.5rem;
-    padding: 13rem;
-    text-align: center;
-}
-
 section.normal {
     background-color: white;
     color: black;
-
-    line-height: 3rem;
     font-family: var(--font3);
+
+    padding: 10rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
     
 }
 
 section.images {
     background-color: rgb(39, 35, 35);
     text-align: center;
+
     line-height: 2rem;
+    padding: 13rem;
  
     /* defina o background como fixo e posicione a imagem */
     background-attachment: fixed;
@@ -66,10 +64,12 @@ section.images {
 }
 
 section.images > p {
-    width: 35rem;
-    text-align: center;
+    width: 30rem;
+    text-align: justify;
     color: black;
-
+    margin-left: -10rem;
+    
+    font-size: 1.2rem;
     font-family: var(--font1);
 }
 
