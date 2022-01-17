@@ -9,8 +9,7 @@
     padding: 0;
 }
 
-html, body {
-    min-height: 100vh;
+body {
     background-color: darkgray;
 }
 
@@ -62,10 +61,6 @@ section.images {
     background-attachment: fixed;
     background-repeat: no-repeat;
 
-    line-height: 0.5rem;
-    width: 10.5rem;
-    height: 10rem;
-
 }
 
 section.images > p {
@@ -90,19 +85,17 @@ section.images > p {
 
 #paris {
     background-image: url('/images/paris.jpg');
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 #londres {
     background-image: url('/images/telephone.jpg');
-    background-position: left;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 #san-francisco {
     background-image: url('/images/san-francisco.jpg');
-    background-position: left;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 

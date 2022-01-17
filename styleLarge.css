@@ -9,8 +9,7 @@
     padding: 0;
 }
 
-html, body {
-    min-height: 100vh;
+body {
     background-color: darkgray;
 }
 
@@ -95,7 +94,7 @@ section.images > p {
 }
 
 #londres {
-    background-image: url('/images/cabine-vermelha.png');
+    background-image: url('/images/telephone.jpg');
     background-repeat: no-repeat;
     background-position: center ;
 }
