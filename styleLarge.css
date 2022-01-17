@@ -29,35 +29,34 @@ header {
 }
 
 header, h1 {
-    padding: 2rem;
+    padding: 1rem;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* Main ----------- */
 
 section {
+    padding: 8rem 9rem;
+    font-size: 1.5rem;
+
     text-align: center;
-    padding-top: 10rem; 
-    padding-bottom: 15rem;
-    line-height: 3rem;
-    padding-left: 10rem;
-    font-size: 2rem;
 }
 
 section.normal {
     background-color: white;
     color: black;
+
+    line-height: 3rem;
     font-family: var(--font3);
     
 }
 
-
-
 section.images {
     background-color: rgb(39, 35, 35);
     text-align: center;
+    line-height: 2rem;
  
     /* defina o background como fixo e posicione a imagem */
     background-attachment: fixed;
@@ -113,7 +112,7 @@ footer {
     color: white;
     text-align: center;
 
-    height: 4rem;
+    height: 3rem;
     width: 100%;
     padding: 3rem;
     font-size: 1.5rem;
