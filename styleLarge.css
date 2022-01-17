@@ -64,9 +64,11 @@ section.images {
 }
 
 section.images > p {
-    width: 30rem;
     text-align: justify;
     color: black;
+
+    width: 30rem;
+    padding: 1.5rem;
     margin-left: -10rem;
     
     font-size: 1.2rem;
